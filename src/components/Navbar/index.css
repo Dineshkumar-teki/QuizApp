@@ -1,0 +1,96 @@
+@media (min-width: 426px) {
+  .navbar {
+    height: 88pxpx;
+    padding: 16px 48px 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafbfe;
+  }
+  .logoutBtnIcon {
+    color: silver;
+    font-size: 1.2rem;
+    display: none;
+  }
+  .navbar > button {
+    width: 86px;
+    height: 40px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #afafaf;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #afafaf;
+  }
+  .navbar > a {
+    text-decoration: none;
+  }
+  .weblogo {
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .weblogo > img {
+    width: 24px;
+    height: 24px;
+    transition: 0.7s;
+  }
+  .weblogo > .logoname {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0ea5e9;
+  }
+}
+@media (max-width: 425px) {
+  .navbar {
+    height: 88pxpx;
+    padding: 10px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafbfe;
+  }
+  .navbar > button {
+    width: 86px;
+    height: 40px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #afafaf;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #afafaf;
+    display: none;
+  }
+  .navbar > a {
+    text-decoration: none;
+  }
+  .weblogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .weblogo > img {
+    width: 18px;
+    height: 18px;
+    transition: 0.7s;
+  }
+  .weblogo > .logoname {
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0ea5e9;
+  }
+  .logoutBtnIcon {
+    color: gray;
+    font-size: 1.5rem;
+    display: block;
+  }
+}

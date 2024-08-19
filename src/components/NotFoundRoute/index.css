@@ -1,0 +1,53 @@
+@media (min-width: 426px) {
+  .notFoundRoute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .notFoundRoute > img {
+    width: 475px;
+    height: 397px;
+  }
+  .notFoundRoute > h1 {
+    font-family: HK Grotesk;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #334155;
+  }
+  .notFoundRoute > p {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #64748b;
+  }
+}
+@media (max-width: 425px) {
+  .notFoundRoute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .notFoundRoute > img {
+    width: 75%;
+  }
+  .notFoundRoute > h1 {
+    font-family: HK Grotesk;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #334155;
+  }
+  .notFoundRoute > p {
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #64748b;
+  }
+}

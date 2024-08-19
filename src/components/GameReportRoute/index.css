@@ -1,0 +1,239 @@
+@media (min-width: 426px) {
+  .gameReportRoute {
+    background: linear-gradient(
+      91.08deg,
+      #dbbcc4 9.68%,
+      #f3dfd8 32.98%,
+      #d8bfd0 75.7%,
+      #b7b1d5 99.11%
+    );
+    min-height: 100vh;
+  }
+  .reportSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+  .reportCard {
+    border-radius: 8px;
+    background: #ffffff;
+    width: 80vw;
+    min-height: 90vh;
+  }
+  .topcard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    margin: 3rem 0;
+  }
+  .topcard > .marksCard {
+    width: 166px;
+    height: 166px;
+    border-radius: 50%;
+    border: 5px solid #0ea5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .marksCard > .marks {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0ea5e9;
+    line-height: 48px;
+  }
+  .marksCard > .slash {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .marksCard > .total {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 1rem;
+  }
+  .correctIcon,
+  .incorrectIcon,
+  .unattemptedIcon {
+    width: 24px;
+    height: 18px;
+    object-fit: scale-down;
+    align-self: center;
+  }
+  .correctIcon > p,
+  .incorrectIcon > p,
+  .unattemptedIcon > p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #475569;
+  }
+  .marksclassification {
+    display: flex;
+    gap: 1rem;
+  }
+  .marksCla {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.2rem;
+  }
+  .bottomSection {
+    width: 100%;
+    min-height: 80vh;
+    border-radius: inherit;
+    background-color: #f8fbff;
+    padding: 2.5rem 2rem;
+  }
+  .unattemptedQuestionsTitle,
+  .attemptedallTitle {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #0ea5e9;
+  }
+  .attemptedallTitle {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60vh;
+  }
+  .unattemptedQuestions {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .eachQuestion > h1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #334155;
+  }
+}
+@media (max-width: 425px) {
+  .gameReportRoute {
+    background: linear-gradient(
+      91.08deg,
+      #dbbcc4 9.68%,
+      #f3dfd8 32.98%,
+      #d8bfd0 75.7%,
+      #b7b1d5 99.11%
+    );
+    min-height: 100vh;
+  }
+  .reportSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 1rem 0;
+  }
+  .reportCard {
+    border-radius: 8px;
+    background: #ffffff;
+    width: 90vw;
+  }
+  .topcard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  .topcard > .marksCard {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #0ea5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .marksCard > .marks {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0ea5e9;
+    line-height: 48px;
+  }
+  .marksCard > .slash {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .marksCard > .total {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 1rem;
+  }
+  .correctIcon,
+  .incorrectIcon,
+  .unattemptedIcon {
+    width: 20px;
+    height: 14px;
+    object-fit: scale-down;
+    align-self: center;
+  }
+  .correctIcon > p,
+  .incorrectIcon > p,
+  .unattemptedIcon > p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #475569;
+  }
+  .marksclassification {
+    display: flex;
+    gap: 1rem;
+  }
+  .marksCla {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .bottomSection {
+    width: 100%;
+    border-radius: inherit;
+    background-color: #f8fbff;
+    padding: 2rem 1rem;
+  }
+  .unattemptedQuestionsTitle,
+  .attemptedallTitle {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0ea5e9;
+    margin-bottom: 1rem;
+  }
+  .attemptedallTitle {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vh;
+  }
+  .unattemptedQuestions {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .eachQuestion > h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #334155;
+    margin-bottom: 0.8rem;
+  }
+}

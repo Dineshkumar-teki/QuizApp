@@ -1,0 +1,221 @@
+@media (min-width: 426px) {
+  .loginSection {
+    background: linear-gradient(
+      91.08deg,
+      #dbbcc4 9.68%,
+      #f3dfd8 32.98%,
+      #d8bfd0 75.7%,
+      #b7b1d5 99.11%
+    );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginCard {
+    background-color: #f8fafc;
+    border-radius: 8px;
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoCard {
+    width: 96px;
+    height: 70px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .logoCard > img {
+    width: 30px;
+    height: 30px;
+    object-fit: scale-down;
+  }
+  .logoTitle {
+    color: #0ea5e9;
+    font-size: 22.5px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+  }
+  .loginCard > form {
+    display: flex;
+    flex-direction: column;
+  }
+  form > label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: Roboto;
+    letter-spacing: 1%;
+    color: #7e858e;
+    margin-bottom: 0.5rem;
+  }
+  form > input {
+    height: 40px;
+    width: 411px;
+    border-radius: 12px;
+    padding: 0 10px;
+    border: 1px solid #d7dfe9;
+    background-color: #ffffff;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+  }
+  form > input:focus {
+    outline: 1px solid lightcoral;
+  }
+  .showPassword {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+  }
+  .showPassword > input {
+    border-radius: 2px;
+    background-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d7dfe9;
+  }
+  .showPassword > label {
+    font-size: 14px;
+    font-family: 'HK Grotesk';
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+    margin-left: 0.4rem;
+  }
+  .loginBtn {
+    background: #0ea5e9;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #f8fafc;
+    margin-top: 1.5rem;
+  }
+  .errMsg {
+    color: red;
+    font-size: 12px;
+    margin-top: 0.8rem;
+  }
+}
+@media (max-width: 425px) {
+  .loginSection {
+    background: linear-gradient(
+      91.08deg,
+      #dbbcc4 9.68%,
+      #f3dfd8 32.98%,
+      #d8bfd0 75.7%,
+      #b7b1d5 99.11%
+    );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginCard {
+    background-color: #f8fafc;
+    border-radius: 8px;
+    width: 90%;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoCard {
+    width: 96px;
+    height: 70px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .logoCard > img {
+    width: 30px;
+    height: 30px;
+    object-fit: scale-down;
+  }
+  .logoTitle {
+    color: #0ea5e9;
+    font-size: 22.5px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+  }
+  .loginCard > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  form > label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: Roboto;
+    letter-spacing: 1%;
+    color: #7e858e;
+    margin-bottom: 0.5rem;
+  }
+  form > input {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0 10px;
+    border: 1px solid #d7dfe9;
+    background-color: #ffffff;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+  }
+  form > input:focus {
+    outline: 1px solid lightcoral;
+  }
+  .showPassword {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+  }
+  .showPassword > input {
+    border-radius: 2px;
+    background-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d7dfe9;
+  }
+  .showPassword > label {
+    font-size: 14px;
+    font-family: 'HK Grotesk';
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+    margin-left: 0.4rem;
+  }
+  .loginBtn {
+    background: #0ea5e9;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #f8fafc;
+    margin-top: 1rem;
+  }
+  .errMsg {
+    color: red;
+    font-size: 12px;
+    margin-top: 0.8rem;
+  }
+}
